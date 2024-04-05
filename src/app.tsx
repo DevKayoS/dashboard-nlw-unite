@@ -1,8 +1,11 @@
+import { AttendeeList } from "./components/attendee-list";
+import { Header } from "./components/header";
 
 export function App() {
   return (
-    <div>
-      <h1>hello</h1>
+    <div className="flex">
+      <Header/>
+      <AttendeeList/>
     </div>
   )
 }
